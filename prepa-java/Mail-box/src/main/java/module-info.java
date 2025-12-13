@@ -1,3 +1,4 @@
+
 module org.example.mailbox {
     requires javafx.controls;
     requires javafx.fxml;

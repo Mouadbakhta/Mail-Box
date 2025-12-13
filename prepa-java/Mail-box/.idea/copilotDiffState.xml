@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/mailbox/MailboxController.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/mailbox/MailboxController.java" />
+              <option name="originalContent" value="package org.example.mailbox;&#10;&#10;import jakarta.mail.*;&#10;&#10;import javafx.fxml.FXML;&#10;import javafx.scene.control.*;&#10;&#10;public class MailboxController {&#10;    @FXML&#10;    private TextField distination ;&#10;    private TextField message;&#10;    private TextField objet;&#10;    //private&#10;&#10;    @FXML&#10;    public void handleRefresh(){&#10;&#10;    }&#10;    @FXML&#10;    public void handleNewEmail(){&#10;&#10;    }&#10;    @FXML&#10;    public void handleDeleteEmail(){&#10;&#10;    }&#10;    @FXML&#10;    void handleSendEmail() {&#10;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package org.example.mailbox;&#10;&#10;import javafx.fxml.FXML;&#10;import javafx.scene.control.*;&#10;&#10;public class MailboxController {&#10;    @FXML&#10;    private TextField distination ;&#10;    private TextField message;&#10;    private TextField objet;&#10;    //private&#10;&#10;    @FXML&#10;    public void handleRefresh(){&#10;&#10;    }&#10;    @FXML&#10;    public void handleNewEmail(){&#10;&#10;    }&#10;    @FXML&#10;    public void handleDeleteEmail(){&#10;&#10;    }&#10;    @FXML&#10;    void handleSendEmail() {&#10;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
