@@ -1,0 +1,24 @@
+# Exemple de configuration (ne pas mettre de secrets ici)
+# Copiez ce fichier en application.properties localement et remplissez les valeurs,
+# ou définissez des variables d'environnement pour éviter de stocker les secrets.
+
+mail.mock.enabled=false
+mail.from.address=votre.adresse@example.com
+
+# SMTP
+mail.smtp.host=smtp.example.com
+mail.smtp.port=587
+mail.smtp.starttls.enable=true
+mail.smtp.ssl.enable=false
+mail.smtp.user=votre.adresse@example.com
+mail.smtp.password=REMPLACEZ_PAR_VARIABLE_ENV
+mail.smtp.debug=false
+
+# IMAP
+mail.protocol=imap
+mail.imap.host=imap.example.com
+mail.imap.port=993
+mail.imap.ssl.enable=true
+mail.imap.user=votre.adresse@example.com
+mail.imap.password=REMPLACEZ_PAR_VARIABLE_ENV
+
